@@ -1,0 +1,106 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+  }
+  body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1px;
+    width: 100vw;
+    height: 100vh;
+    color: hsl(215, 51%, 70%);
+  }
+  .container{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+  }
+  .image-container img{
+    width: 250px;
+    height: 260px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .image-container{
+    width: 250px;
+    height: 260px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  .informations{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    width: 250px;
+  }
+  h2{
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  p{
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .eth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ethereum, .days{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .ethereum p{
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+  }
+  .ethereum img{
+    width: 10px;
+    height: 18px;
+  }
+  .days img{
+    width: 18px;
+    height: 18px;
+  }
+  .avatar{
+    margin-top: 18px;
+    padding: 10px 0px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .avatar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 1000px;
+    border: 1px solid hsl(0, 0%, 100%);
+  }
+  .avatar a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+  }
+  .avatar a:hover, h2:hover{
+    color: hsl(178, 100%, 50%);
+
+  }
+
+.image-container:hover{
+  background: url(images/icon-view.svg) no-repeat center;
+  background-color: hsl(178, 100%, 50%);
+}
+
+.image-container img:hover{
+  opacity: 0.4;
+
+}

@@ -12,26 +12,27 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 4px;
+    gap: 1rem;
     width: 100vw;
     height: 100vh;
     color: hsl(215, 51%, 70%);
   }
   .container{
     background-color: hsl(216, 50%, 16%);
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     padding: 1.5rem;
+    height: 80vh;
   }
   .image-container img{
-    width: 242px;
-    height: 240px;
-    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
     cursor: pointer;
   }
   .image-container{
-    width: 242px;
-    height: 240px;
-    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
     cursor: pointer;
 }
   .informations{
